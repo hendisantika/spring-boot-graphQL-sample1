@@ -2,6 +2,7 @@ package com.hendisantika.graphql.springbootgraphqlsample1.entity;
 
 import lombok.Data;
 
+import javax.persistence.Entity;
 import javax.persistence.Id;
 
 /**
@@ -16,6 +17,7 @@ import javax.persistence.Id;
  */
 
 @Data
+@Entity
 public class Person {
     @Id
     private int id;
